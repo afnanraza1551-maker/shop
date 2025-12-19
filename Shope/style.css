@@ -1,0 +1,110 @@
+/* Whole Page White Theme */
+body {
+    background: #ffffff;
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+/* Main Container */
+.container {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 25px;
+    max-width: 900px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    height: 35rem;
+}
+
+/* Header */
+.header {
+    margin-bottom: 1rem;
+}
+
+/* Centered Titles */
+h1, h2 {
+    text-align: center;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+/* Paragraph Container */
+.patg {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+#pat {
+    width: 75%;
+    text-align: center;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Special Fade Animation */
+.container, h1, h2, #pat, .img-btn {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Image Button Section */
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+/* Special White Theme Button */
+.img-btn {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Special effect */
+    box-shadow: 
+        8px 8px 20px #d9d9d9,
+        -8px -8px 20px #ffffff;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover effect – SPECIAL */
+.img-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        10px 10px 20px #d0d0d0,
+        -10px -10px 20px #ffffff;
+}
+
+/* Image inside button */
+.img-btn img {
+    width: 252px;
+    height: 252px;
+    border-radius: 25px;
+}
+a {
+    border-radius: 25px;
+}
+.imgg {
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+.imh {
+    border-radius: 25px;
+
+}

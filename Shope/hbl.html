@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="hbl.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Paisa Payment</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f6f6;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 90%;
+            margin: auto;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .upload-box {
+            margin-top: 30px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .container, h1,h2,.head3 #pat, .img-btn {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+        .note {
+            margin-top: 10px;
+            color: #444;
+            font-size: 14px;
+        }
+
+        .h3 {
+            width: 8rem;
+            height: 3rem;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Hbl Account</h1>
+
+        <p>
+            “You can complete your payment easily via EasyPaisa at: 
+            <b>03XXXXXXXX</b> (Your Account Name). Thank you for your support!”
+        </p>
+
+        <p>
+            "Kindly share the payment screenshot with us so we can process your order quickly."
+        </p>
+
+        <!-- 🔥 Upload Box -->
+        <div class="upload-box">
+            <h3>Upload Payment Screenshot</h3>
+
+            <input 
+                type="file"
+                accept="image/*"
+                capture="environment"
+            >
+
+            <p class="note">*Mobile users can choose from gallery or take a photo.</p>
+            <div>
+                <div class="send">
+                    <a href="adress.html" class="atag">Send</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

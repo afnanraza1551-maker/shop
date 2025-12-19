@@ -1,0 +1,145 @@
+.pay {
+    height: 30rem;
+    width: 22rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 29rem;
+    margin-top: 4rem;
+}
+@keyframes glowIn {
+    0% {
+        opacity: 0;
+        filter: brightness(0.5) blur(5px);
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1) blur(0);
+    }
+}
+.onee {
+    margin-top: 3rem;
+}
+.payment {
+    gap: 20rem;
+}
+h1 {
+    margin-left: 4rem;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.one {
+    height: 3rem;
+    width: 18rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px black ;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.two {
+       flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px black ;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    gap: 20px;
+}
+.three {
+       flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px black ;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    gap: 7px;
+}
+.four {
+       flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    gap: 7px;
+}
+.img1 {
+    height: 2rem;
+    width: 10rem;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px black;
+}
+.img2 {
+    height: 2rem;
+    width: 10rem;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px black ;
+}
+.img3 {
+    height: 2rem;
+    width: 10rem;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px black  ;
+}
+.img4 {
+    height: 2rem;
+    width: 10rem;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 14px;
+    box-shadow: 0px  0px 5px black  ;
+}
+.out1 {
+    height: 2.9rem;
+    width: 18rem;
+}
+.out2 {
+    height: 2.9rem;
+    width: 18rem;
+}
+.out3 {
+    height: 2.9rem;
+    width: 18rem;
+}
+.out4 {
+    height: 2.9rem;
+    width: 18rem;
+}
+.one1 {
+    margin-left: 7rem;
+}
+.two2 {
+    margin-left: 7rem;
+}
+.three3 {
+    margin-left: 7rem;
+}
+.four4 {
+    margin-left: 7rem;
+}
+.atag {
+    text-decoration: none;
+    color: black;
+}
